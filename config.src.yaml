@@ -1,0 +1,7 @@
+listeners:
+  http:
+    host: $HOST
+    port: $PORT
+
+database:
+  connectionString: $DB_URL
