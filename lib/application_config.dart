@@ -22,10 +22,10 @@ class Listeners {
 
 class DatabaseConfig {
   DatabaseConfig(Map<String,String> config) {
-    url = config['url'];
+    connectionString = config['url'];
   }
 
-  String url;
+  String connectionString;
 }
 
 class ApplicationConfig extends Configuration {

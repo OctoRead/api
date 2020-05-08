@@ -1,7 +1,7 @@
 listeners:
   http:
-    host: "$HOST"
-    port: "$PORT"
+    host: $HOST
+    port: $PORT
 
 database:
   url: $DB_URL

@@ -4,4 +4,4 @@ listeners:
     port: $PORT
 
 database:
-  connectionString: $DB_URL
+  url: $DB_URL
