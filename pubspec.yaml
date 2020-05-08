@@ -9,6 +9,7 @@ environment:
 dependencies:
   aqueduct: ^3.3.0
   yaml: ^2.2.0
+  path: ^1.7.0
   octoread_engine:
     git:
       url: git://github.com/OctoRead/engine.git

@@ -7,4 +7,4 @@ export 'package:aqueduct/aqueduct.dart';
 
 export 'package:octoread_engine/octoread_engine.dart';
 
-export 'api_channel.dart';
+export 'channels/api_channel.dart';
