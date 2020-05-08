@@ -7,7 +7,7 @@ environment:
   sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  aqueduct: ^3.0.0
+  aqueduct: ^3.3.0
   octoread_engine:
     git:
       url: git://github.com/OctoRead/engine.git
