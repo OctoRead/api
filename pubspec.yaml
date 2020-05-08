@@ -1,0 +1,21 @@
+name: octoread_api
+description: OctoRead API
+version: 0.0.1
+author: Anar K. Jafarov <anar.k.jafarov@gmail.com>
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  aqueduct: ^3.0.0
+  octoread_engine:
+    git:
+      url: git://github.com/OctoRead/engine.git
+
+dependency_overrides:
+  octoread_engine:
+    path: ../octoread_engine/
+
+dev_dependencies:
+  test: ^1.0.0
+  aqueduct_test: ^1.0.0
