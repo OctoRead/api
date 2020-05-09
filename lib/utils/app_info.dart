@@ -6,7 +6,7 @@ class AppInfo {
     return loadYaml(File('pubspec.yaml').readAsStringSync()) as YamlMap;
   }
 
-  static Map<String,dynamic> get info {
+  static Map<String, dynamic> get info {
     final info = {
       "name": spec["name"],
       "version": spec["version"]
