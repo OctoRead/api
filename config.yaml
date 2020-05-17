@@ -3,4 +3,5 @@ listeners:
     host: $HOST
     port: $PORT
 
-database: $DB_URL
+databases:
+  main: $DB_URL

@@ -1,10 +1,12 @@
-import 'package:octoread_api/octoread_api.dart';
+import 'dart:async';
 import 'package:aqueduct_test/aqueduct_test.dart';
+import 'package:octoread_api/octoread_api.dart';
 
-export 'package:octoread_api/octoread_api.dart';
-export 'package:aqueduct_test/aqueduct_test.dart';
-export 'package:test/test.dart';
+export 'dart:async';
 export 'package:aqueduct/aqueduct.dart';
+export 'package:aqueduct_test/aqueduct_test.dart';
+export 'package:octoread_api/octoread_api.dart';
+export 'package:test/test.dart';
 
 /// A testing harness for octoread_api.
 ///

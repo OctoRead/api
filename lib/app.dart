@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:aqueduct/aqueduct.dart';
 import 'package:octoread_engine/octoread_engine.dart';
-
 import 'routing/routing.dart';
 
 class OctoreadApiChannel extends ApplicationChannel {
