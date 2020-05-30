@@ -8,5 +8,6 @@ class AppRouter extends Router {
 
   void initDefaultRoutes() {
     route("/").linkFunction((request) => Response.ok(AppInfo.toMap()));
+    route("/auth").linkFunction((request) => Response.ok("SAMPLE AUTH RESPONSE");
   }
 }
